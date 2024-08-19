@@ -12,7 +12,7 @@
 		</div>
 
 		<div class="middle">
-			<form class="try" onsubmit="event.preventDefault()">
+			<form class="try">
 				<p>Try and guess a random number between 1 and 100.</p>
 				<p>You have 10 attempts to guess the right number.</p>
 
@@ -21,13 +21,26 @@
 					<br />
 					<input type="text" id="guessField" />
 				</div>
-				<button class="btn">Submit</button>
-				<div class="center">
-					<h2>Previous Guesses:</h2>
-					<h2>Total Guess Remaining: 10</h2>
+				<button type="submit" class="btn" id="submit">Submit</button>
+				<div id="center">
+					<h2 id="lowOrhi"></h2>
+					<h2 id="previousGuesses">Previous Guesses:</h2>
+					<h2 id="guessCount">Total Guess Remaining: 10</h2>
 				</div>
 			</form>
 		</div>
+
+		<footer class="footer">
+			<p class="fp">&copy; 2024 Guess the Number Game. All rights reserved.</p>
+			<p class="fp">
+				Created with ❤️ by a1tamash.
+				<br />Follow me on
+				<a href="https://github.com/a1tamash" target="_blank">GitHub</a> |
+				<a href="https://www.linkedin.com/in/abdul-altamash/" target="_blank"
+					>LinkedIn</a
+				>
+			</p>
+		</footer>
 	</body>
 	<script src="script.js"></script>
 </html>

@@ -18,7 +18,7 @@ body {
 	justify-content: center;
 }
 form {
-	height: 580px;
+	height: 700px;
 	width: 50%;
 	/* background-color: #212121; */
 	border: 5px solid rgb(7, 243, 23);
@@ -39,7 +39,7 @@ form {
 	background-color: white;
 	color: black;
 	padding: 10px;
-	width: 150px;
+	width: 220px;
 	font-size: 2rem;
 }
 .btn:hover {
@@ -62,10 +62,40 @@ p {
 	width: 350px;
 	font-size: 2rem;
 	outline: none;
-	border: 10px solid green;
+	border: 10px solid rgb(7, 243, 23);
 }
 
 h2 {
 	background-color: rgb(7, 243, 23);
 	color: black;
+}
+
+#buttonCenter {
+	display: flex;
+	justify-content: center;
+}
+.button {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	width: 220px;
+	font-size: 2rem;
+}
+
+.button:hover {
+	background-color: rgb(7, 243, 23);
+	color: white;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: black;
+	/* display: flex;
+	justify-content: center; */
+}
+
+.fp {
+	text-align: center;
+	background-color: black;
+	color: rgb(7, 243, 23);
 }
