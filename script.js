@@ -9,7 +9,7 @@ const previous = document.querySelector("#previousGuesses");
 const startOver = document.querySelector("#center");
 
 let previousGuesses = [];
-let limit = 3;
+let limit = 10;
 
 const divValue = startOver.innerHTML;
 
